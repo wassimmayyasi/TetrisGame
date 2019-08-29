@@ -1,12 +1,11 @@
 // DO NOT MODIFY FOR BASIC SUBMISSION
-// scalastyle:off
 
 package engine.graphics
 // Color in red green blue, where each color value is in the range 0-255
 case class Color(red: Float, green: Float, blue: Float, alpha: Float) {
 
   // This is called on new Color(r,g,b)
-  def this(red: Float, green: Float, blue: Float) = this(red, green, blue, 255)
+  def this(red: Float, green: Float, blue: Float) = this(red, green, blue, Color.MaxIntensity)
 
   def linearInterpolation(l: Float, r: Float, t: Float): Float = (1 - t) * l + t * r
 
@@ -21,6 +20,8 @@ case class Color(red: Float, green: Float, blue: Float, alpha: Float) {
 
 /** Color companion object */
 object Color {
+
+  val MaxIntensity = 255
 
   // This is called on Color(r,g,b) (without new)
   def apply(red: Float, green: Float, blue: Float): Color = new Color(red, green, blue)
