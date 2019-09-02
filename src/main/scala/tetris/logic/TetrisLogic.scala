@@ -53,9 +53,7 @@ object TetrisLogic {
   }
 
   val DefaultWidth: Int = 10
-  val NrTopInvisibleLines: Int = 4
-  val DefaultVisibleHeight: Int = 20
-  val DefaultHeight: Int = DefaultVisibleHeight + NrTopInvisibleLines
+  val DefaultHeight: Int = 20
 
 
   def apply() = new TetrisLogic(new ScalaRandomGen(),
