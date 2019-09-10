@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e4e871-ae3e-4003-ba50-8623ff97f58e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/GameBase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/GameBase.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/graphics/Color.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/graphics/Color.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/graphics/Point.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/graphics/Point.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/graphics/Rectangle.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/graphics/Rectangle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/graphics/Triangle.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/graphics/Triangle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/random/ListRandomGen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/random/ListRandomGen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/random/RandomGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/random/RandomGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/engine/random/ScalaRandomGen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/engine/random/ScalaRandomGen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/tetris/game/TetrisBlock.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tetris/game/TetrisBlock.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/tetris/game/TetrisGame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tetris/game/TetrisGame.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/tetris/logic/TetrisLogic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tetris/logic/TetrisLogic.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/test/GenericRecord.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/test/GenericRecord.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/test/tetris/TetrisRecord.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/test/tetris/TetrisRecord.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/test/tetris/TetrisTestSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/test/tetris/TetrisTestSuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/test/tetris/TetrisTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/test/tetris/TetrisTests.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/test/util/StringUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/test/util/StringUtils.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

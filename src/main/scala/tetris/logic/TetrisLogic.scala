@@ -7,7 +7,7 @@ import tetris.logic.TetrisLogic._
 /** To implement Tetris, complete the ``TODOs`` below.
   *
   * If you need additional files,
-  * please also put them in the ``tetris.logic`` package.
+  * please also put them in the ``tetris`` package.
   */
 class TetrisLogic(val randomGen: RandomGenerator,
                   val nrColumns: Int,
@@ -53,7 +53,9 @@ object TetrisLogic {
   }
 
   val DefaultWidth: Int = 10
-  val DefaultHeight: Int = 20
+  val NrTopInvisibleLines: Int = 4
+  val DefaultVisibleHeight: Int = 20
+  val DefaultHeight: Int = DefaultVisibleHeight + NrTopInvisibleLines
 
 
   def apply() = new TetrisLogic(new ScalaRandomGen(),

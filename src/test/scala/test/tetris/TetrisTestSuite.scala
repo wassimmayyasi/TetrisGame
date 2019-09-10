@@ -1,4 +1,5 @@
 // DO NOT MODIFY FOR BASIC SUBMISSION
+// scalastyle:off
 
 package test.tetris
 
@@ -59,5 +60,5 @@ class TetrisTestSuite extends TestSuite {
     ("testInterleave8x11and6x10", testGame8x11, testGame6x10),
   )
 
-  reportOnUniformlyScoreTests(testList, mainInterTestList, "2.0")
+  reportOnUniformlyScoredTests(testList, mainInterTestList, "2.0")
 }

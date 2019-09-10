@@ -24,7 +24,7 @@ version '1.0'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-mainClassName = 'tetris.game.TetrisGame'
+mainClassName='tetris.game.TetrisGame'
 
 ext {
     scalaMajorVersion = '2.12'
@@ -114,12 +114,13 @@ tasks.withType(Test) {
         events  TestLogEvent.FAILED,
                 TestLogEvent.PASSED,
                 TestLogEvent.STANDARD_OUT
-        exceptionFormat TestExceptionFormat.SHORT
-        showExceptions false
-        showCauses false
-        showStackTraces false
+        exceptionFormat TestExceptionFormat.FULL
+        showExceptions true
+        showCauses true
+        showStackTraces true
     }
 }
+
 
 task test2(type: Test) {
     description="Run tests for assignment 2 (tetris)"

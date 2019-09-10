@@ -1,4 +1,5 @@
 // DO NOT MODIFY FOR BASIC SUBMISSION
+// scalastyle:off
 
 package tetris.game
 
@@ -20,7 +21,6 @@ class TetrisGame extends GameBase {
   val heightInPixels: Int = HeightCellInPixels * gameLogic.nrRows
   val screenArea: Rectangle = Rectangle(Point(0, 0), widthInPixels, heightInPixels)
 
-  /** Renders the game frame. */
   override def draw(): Unit = {
     updateState()
     drawGrid()

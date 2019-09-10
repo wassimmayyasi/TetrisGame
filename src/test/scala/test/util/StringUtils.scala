@@ -1,6 +1,9 @@
 // DO NOT MODIFY FOR BASIC SUBMISSION
+// scalastyle:off
 
 package test.util
+
+import java.io.{PrintWriter, StringWriter}
 
 // the generic code in this file is
 // currently used in the testing infrastructure
@@ -39,6 +42,7 @@ object StringUtils {
     val width = header.length max contentLines.length
     val hLine = horizontalLineOfWidth(width)
     (header +: hLine +: contentLines).mkString("\n")
+
   }
 
   def sideBySide(a: String, inbetween: String, b: String): String = a + inbetween + b
@@ -101,4 +105,10 @@ object StringUtils {
       indentedLines.mkString("\n") + multilineStringQuote
   }
 
+  def stackTraceAsString(t: Throwable): String = {
+    val traceStr = new StringWriter
+    val printWriter = new PrintWriter(traceStr)
+    t.printStackTrace(printWriter)
+    traceStr.toString
+  }
 }

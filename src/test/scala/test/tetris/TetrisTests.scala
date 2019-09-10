@@ -1,4 +1,5 @@
 // DO NOT MODIFY FOR BASIC SUBMISSION
+// scalastyle:off
 
 package test.tetris
 
@@ -700,154 +701,161 @@ object TetrisTests {
       TestFrame(0, List(RotateRight), GameOverDisplay())
      ))
 
+
   val testDrop = TetrisTest("testDrop",
-    List( TestFrame(0, List(Drop),
     """....
-      |IIII
+      |....
       |....
       |....
       |.T..
-      |TTT."""),
-    TestFrame(0, List(RotateRight),
-      """..I.
-        |..I.
-        |..I.
-        |..I.
+      |TTT.""",
+    List( TestFrame(0, List(Drop),
+      """....
+        |IIII
+        |....
+        |....
         |.T..
         |TTT."""),
-    TestFrame(0, List(Right),
-      """...I
-        |...I
-        |...I
-        |...I
-        |.T..
-        |TTT."""),
-    TestFrame(5, List(Drop),
-      """.T..
-        |TTT.
-        |....
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(5, List(RotateRight),
-      """.T..
-        |.TT.
-        |.T..
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(5, List(Left),
-      """T...
-        |TT..
-        |T...
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(0, List(Drop),
-      """....
-        |IIII
-        |....
-        |T..I
-        |TT.I
-        |TT.I"""),
-    TestFrame(0, List(RotateRight),
-      """..I.
-        |..I.
-        |..I.
-        |T.II
-        |TT.I
-        |TT.I"""),
-    TestFrame(5, List(Drop),
-      """.T..
-        |TTT.
-        |....
-        |....
-        |..I.
-        |T.II"""),
-    TestFrame(5, List(RotateRight),
-      """.T..
-        |.TT.
-        |.T..
-        |....
-        |..I.
-        |T.II"""),
-    TestFrame(5, List(RotateRight),
-      """....
-        |TTT.
-        |.T..
-        |....
-        |..I.
-        |T.II"""),
-    TestFrame(5, List(RotateRight),
-      """.T..
-        |TT..
-        |.T..
-        |....
-        |..I.
-        |T.II"""),
-    TestFrame(0, List(Drop),
-      """....
-        |IIII
-        |....
-        |....
-        |.T..
-        |TTI."""),
-    TestFrame(0, List(RotateRight),
-      """..I.
-        |..I.
-        |..I.
-        |..I.
-        |.T..
-        |TTI."""),
-    TestFrame(0, List(Right),
-      """...I
-        |...I
-        |...I
-        |...I
-        |.T..
-        |TTI."""),
-    TestFrame(5, List(Drop),
-      """.T..
-        |TTT.
-        |....
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(5, List(RotateRight),
-      """.T..
-        |.TT.
-        |.T..
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(5, List(RotateRight),
-      """....
-        |TTT.
-        |.T..
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(5, List(RotateRight),
-      """.T..
-        |TT..
-        |.T..
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(5, List(Right),
-      """..T.
-        |.TT.
-        |..T.
-        |...I
-        |...I
-        |.T.I"""),
-    TestFrame(0, List(Drop),
-      """....
-        |IIII
-        |....
-        |..TI
-        |.TTI
-        |.TTI""")))
+      TestFrame(0, List(RotateRight),
+        """..I.
+          |..I.
+          |..I.
+          |..I.
+          |.T..
+          |TTT."""),
+      TestFrame(0, List(Right),
+        """...I
+          |...I
+          |...I
+          |...I
+          |.T..
+          |TTT."""),
+      TestFrame(5, List(Drop),
+        """.T..
+          |TTT.
+          |....
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(5, List(RotateRight),
+        """.T..
+          |.TT.
+          |.T..
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(5, List(Left),
+        """T...
+          |TT..
+          |T...
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(0, List(Drop),
+        """....
+          |IIII
+          |....
+          |T..I
+          |TT.I
+          |TT.I"""),
+      TestFrame(0, List(RotateRight),
+        """..I.
+          |..I.
+          |..I.
+          |T.II
+          |TT.I
+          |TT.I"""),
+      TestFrame(5, List(Drop),
+        """.T..
+          |TTT.
+          |....
+          |....
+          |..I.
+          |T.II"""),
+      TestFrame(5, List(RotateRight),
+        """.T..
+          |.TT.
+          |.T..
+          |....
+          |..I.
+          |T.II"""),
+      TestFrame(5, List(RotateRight),
+        """....
+          |TTT.
+          |.T..
+          |....
+          |..I.
+          |T.II"""),
+      TestFrame(5, List(RotateRight),
+        """.T..
+          |TT..
+          |.T..
+          |....
+          |..I.
+          |T.II"""),
+      TestFrame(0, List(Drop),
+        """....
+          |IIII
+          |....
+          |....
+          |.T..
+          |TTI."""),
+      TestFrame(0, List(RotateRight),
+        """..I.
+          |..I.
+          |..I.
+          |..I.
+          |.T..
+          |TTI."""),
+      TestFrame(0, List(Right),
+        """...I
+          |...I
+          |...I
+          |...I
+          |.T..
+          |TTI."""),
+      TestFrame(5, List(Drop),
+        """.T..
+          |TTT.
+          |....
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(5, List(RotateRight),
+        """.T..
+          |.TT.
+          |.T..
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(5, List(RotateRight),
+        """....
+          |TTT.
+          |.T..
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(5, List(RotateRight),
+        """.T..
+          |TT..
+          |.T..
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(5, List(Right),
+        """..T.
+          |.TT.
+          |..T.
+          |...I
+          |...I
+          |.T.I"""),
+      TestFrame(0, List(Drop),
+        """....
+          |IIII
+          |....
+          |..TI
+          |.TTI
+          |.TTI""")))
 
   val testClear1Line =  TetrisTest("testClear1Line",
     """...
