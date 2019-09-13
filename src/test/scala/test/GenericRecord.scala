@@ -9,6 +9,8 @@ import engine.random.RandomGenerator
 import test.util.{StringUtils, TestRandomGen}
 import test.util.StringUtils._
 import org.scalatest.{FunSuiteLike, Matchers}
+import scala.annotation.tailrec
+
 
 /** Fair warning: this file is messy.
   * Generic test infrastructure for Snake and Tetris.
@@ -117,8 +119,8 @@ abstract class GenericRecord[
 
   def gridString(s: String): GridDisplay = {
     GridDisplay(
-      for (row <- s.stripMargin.lines.toList)
-        yield for (char <- row.toList)
+      for (row <- s.stripMargin.linesIterator.toList)
+        yield for (char <- row)
           yield charToGridType(char)
     )
   }
