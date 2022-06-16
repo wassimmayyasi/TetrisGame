@@ -1,0 +1,18 @@
+2022.06.16 19:07:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\.metals\lsp.trace.json or C:\Users\wm_am\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.16 19:07:41 INFO  logging to file C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\.metals\metals.log
+2022.06.16 19:07:41 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton' for client Visual Studio Code 1.68.1.
+2022.06.16 19:07:43 INFO  time: initialize in 2.41s
+2022.06.16 19:07:45 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.16 19:07:45 WARN  Build server is not auto-connectable.
+2022.06.16 19:07:46 WARN  no build target for: C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\logic\Coordinates.scala
+2022.06.16 19:07:46 WARN  no build target for: C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\logic\Board.scala
+2022.06.16 19:07:46 WARN  no build target for: C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\logic\GameFrame.scala
+2022.06.16 19:07:47 WARN  no build target for: C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\logic\TetrisLogic.scala
+2022.06.16 19:07:47 WARN  no build target for: C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\logic\Tetromino.scala
+2022.06.16 19:07:50 WARN  no build target for: C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\game\TetrisBlock.scala
+2022.06.16 19:07:51 INFO  no build target found for C:\Users\wm_am\Desktop\wassim\DoneYearTwo\P1-AdvancedProgrammingForCS-7.5\tetrisskeleton\src\main\scala\tetris\logic\Board.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.16 19:07:55 INFO  time: code lens generation in 4.33s
+2022.06.16 19:07:55 INFO  time: code lens generation in 7.57s
+2022.06.16 19:07:55 INFO  time: code lens generation in 7.93s
+2022.06.16 19:07:56 INFO  time: code lens generation in 8.49s
+2022.06.16 19:08:09 INFO  shutting down Metals
